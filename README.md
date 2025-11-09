@@ -1,11 +1,12 @@
-# Summary
+# Music Recommender
 
-This is a program that will take your input, and based on mood and genre preference will reccomend you songs.
+## Summary
+This program takes your input and, based on your mood and genre preferences, recommends songs.
 
-# How to use
+## How to Use
+1. **Host the page:** Use a static server like the Live Server plugin for Visual Studio Code to serve the front-end (`index.html`).  
 
-To test this, host the page using something like live server plugin for Visual Studio Code.
-
-In the command line enter the /music folder, and run wrangler dev to host the agent.
-
-Use the app (enter text, and respond to the response)
+2. **Run the AI Worker:**  
+   Open a terminal, navigate to the `/music` folder, and run:
+   ```bash
+   wrangler dev
